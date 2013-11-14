@@ -1,0 +1,4 @@
+
+@mixin color($name) {
+  color: get-color($name);
+}

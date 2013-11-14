@@ -1,0 +1,39 @@
+
+/* ==========================================================================
+   @section #next-major
+
+   Colors
+
+   Quickly access common colors and keep your site consistent with these SCSS
+   color swatch variables. With 3 main colors, each with 2 shades lighter and
+   darker for border highlights, hovering effects, button press effects etc.
+   You also have 8 defined grey's, and a number of semantic colors.
+
+   @endsection
+   ========================================================================== */
+
+/**
+ * @section #next-minor
+ *
+ * Color swatches
+ *
+ * Backgrounds for things
+ *
+ * @Markup
+ * <div class="docs-color-swatch" style="background-color:{$modifiers.value}">{$modifiers.name}</div>
+ *
+ * @nodefault
+ *
+ */
+
+@each $color in get-colors() {
+    $name: nth($color, 1);
+    $value: nth($color, 2);
+
+     /* @Modifier .#{$name} - #{$value} */
+
+    %#{$name} { color: #{$value}; }
+    .#{$name} { color: #{$value} !important; }
+}
+/* @endsection
+*/

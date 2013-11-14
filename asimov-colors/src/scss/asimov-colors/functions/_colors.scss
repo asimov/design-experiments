@@ -1,0 +1,21 @@
+@import "asimov/utilities";
+
+// =============================================================================
+// Colors
+// =============================================================================
+
+$colors: () !default;
+
+// This provides accessor functions to enumerable lists of colors
+
+@function get-color($name) {
+    @if type-of($name) == "color" {
+        @return $name;
+    }
+
+    @return join(lookup(get-colors(true), $name, "base", true));
+}
+
+@function get-colors($components:false) {
+    @return get-component-list("colors", $colors, $components);
+}
