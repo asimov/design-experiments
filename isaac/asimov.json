@@ -4,11 +4,6 @@
     "platform": "*"
 
   },
-  "dependencies": [
-    "platform/*", //parent theme,
-    "asimov-colors", //bower
-    "isaac/src/scss/components/*" //local component
-  ]
 }
 
 

@@ -15,7 +15,14 @@
   ],
   "dependencies": {
     "asimov": "*",
-    "platform": "*",
+    "asimov-platform": "*",
     "asimov-colors": "*"
+  },
+  "asimov": {
+    dependencies: [
+      "platform/*", //parent theme,
+      "asimov-colors", //bower
+      "isaac/src/scss/components/*" //local component
+    ]
   }
 }

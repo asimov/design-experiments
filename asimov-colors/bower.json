@@ -13,6 +13,7 @@
     "test",
     "tests"
   ],
+  main: "asimov-colors/components"
   "dependencies": {
     "asimov": "*",
     "asimov-flags": "*"

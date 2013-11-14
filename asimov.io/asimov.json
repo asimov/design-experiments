@@ -1,0 +1,6 @@
+{
+  name: "asimov.io",
+  components: {
+    "isaac": "*"
+  }
+}
