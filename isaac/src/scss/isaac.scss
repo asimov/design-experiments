@@ -1,6 +1,15 @@
+// BUILD.JS
+
+// SETTINGS
+
+// always starts with asimov settings
+@import "asimov/settings";
+// then our settings (includes deps)
 @import "isaac/settings";
 
-// CORE
-@import "asimov/asimov";
+// COMPONENTS
 
+// core
+@import "asimov/asimov";
+// us (includes deps)
 @import "isaac/manifest";

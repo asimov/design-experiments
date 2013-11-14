@@ -1,7 +1,8 @@
 {
   name: "isaac",
-  components: {
-    "asimov": "*",
-    "johnny-modal": "modal"
-  }
+  dependencies: [
+    "platform", //parent theme
+    "asimov-colors", //bower
+    "isaac/components/modal" //local component
+  ]
 }
