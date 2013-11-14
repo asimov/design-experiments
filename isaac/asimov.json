@@ -1,8 +1,20 @@
 {
-  name: "isaac",
-  dependencies: [
-    "platform", //parent theme
+  "name": "isaac",
+  "components": {
+    "platform": "*"
+
+  },
+  "dependencies": [
+    "platform/*", //parent theme,
     "asimov-colors", //bower
-    "isaac/components/modal" //local component
+    "isaac/src/scss/components/*" //local component
   ]
 }
+
+
+// GRUNT task.
+// Watches asimov.json & src/[scss|js]/[PROJECT]/components/
+//  GENERATES: src/scss/[PROJECT].scss
+//  GENERATES: src/scss/[PROJECT]/_settings.scss
+//  TOUCHES: src/scss/[PROJECT]/_settings_override.css
+//  GENERATES: src/scss/[PROJECT]/_manifest.scss
