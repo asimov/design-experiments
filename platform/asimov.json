@@ -1,0 +1,6 @@
+{
+  name: "platform",
+  dependencies: [
+    "platform/components/alerts" //local component
+  ]
+}

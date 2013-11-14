@@ -1,5 +1,5 @@
 {
-  "name": "isaac",
+  "name": "platform",
   "version": "0.0.0",
   "authors": [
     "Glen Maddern <glenmaddern@gmail.com>"
@@ -14,8 +14,6 @@
     "tests"
   ],
   "dependencies": {
-    "asimov": "*",
-    "platform": "*",
-    "asimov-colors": "*"
+    "asimov": "*"
   }
 }
