@@ -1,3 +1,4 @@
+@import "asimov-colors/functions/colors";
 
 @mixin color($name) {
   color: get-color($name);

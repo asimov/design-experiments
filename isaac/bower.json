@@ -1,0 +1,20 @@
+{
+  "name": "asimov-colors",
+  "version": "0.0.0",
+  "authors": [
+    "Glen Maddern <glenmaddern@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  dependencies: {
+    "asimov": "*",
+    "asimov-colors": "*"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  name: "isaac",
+  components: {
+    "asimov": "*",
+    "johnny-modal": "modal"
+  }
+}
