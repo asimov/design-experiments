@@ -1,9 +1,11 @@
 {
   "name": "isaac",
   "components": {
-    "platform": "*"
-
-  },
+    "asimov/box": "box",
+    "platform/*": "*",
+    "components/modal": "modal",
+    "asimov-colors": "colors"
+  }
 }
 
 

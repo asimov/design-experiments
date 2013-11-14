@@ -1,4 +1,4 @@
-// BUILD.JS
+// PLATFORM.SCSS
 
 // SETTINGS
 
@@ -7,9 +7,11 @@
 // then our settings (includes deps)
 @import "platform/settings";
 
+
+// CORE
+@import "asimov/asimov";
+
 // COMPONENTS
 
-// core
-@import "asimov/asimov";
-// us (includes deps)
+@import "asimov/components/flags";
 @import "platform/components/alerts";

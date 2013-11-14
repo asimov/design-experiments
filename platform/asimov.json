@@ -1,6 +1,7 @@
 {
-  name: "platform",
-  dependencies: [
-    "platform/components/*" //local components
-  ]
+  "name": "platform",
+  "components": {
+    "asimov/flags": "flags",
+    "bobby-alerts": "alerts"
+  }
 }

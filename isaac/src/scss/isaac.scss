@@ -15,7 +15,11 @@
 
 // DEPENDENCIES
 
-// platform/*
+//    "asimov/box": "box",
+@import "asimov/components/box";
+
+// "platform/*": *
+@import "asimov/components/flags";
 @import "platform/components/alerts";
 
 // asimov-colors
