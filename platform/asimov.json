@@ -1,8 +1,6 @@
 {
   name: "platform",
   dependencies: [
-    "asimov/flags",
-    "asimov/something-that-sux",
     "platform/components/*" //local components
   ]
 }

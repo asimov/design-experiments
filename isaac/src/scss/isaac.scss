@@ -12,4 +12,14 @@
 // core
 @import "asimov/asimov";
 // us (includes deps)
-@import "isaac/manifest";
+
+// DEPENDENCIES
+
+// platform/*
+@import "platform/components/alerts";
+
+// asimov-colors
+@import "asimov-colors/components/colors";
+
+// LOCAL COMPONENTS
+@import "isaac/components/modal";
